@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SMSTests' target in the 'SMSTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
