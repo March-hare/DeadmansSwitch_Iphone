@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B17B4DCD14A1A986006958A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17B4DCC14A1A986006958A3 /* UIKit.framework */; };
+		B17B4DCF14A1A986006958A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17B4DCE14A1A986006958A3 /* Foundation.framework */; };
+		B17B4DD114A1A986006958A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17B4DD014A1A986006958A3 /* CoreGraphics.framework */; };
+		B17B4DD714A1A986006958A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B17B4DD514A1A986006958A3 /* InfoPlist.strings */; };
+		B17B4DD914A1A986006958A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B17B4DD814A1A986006958A3 /* main.m */; };
+		B17B4DDD14A1A986006958A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B17B4DDC14A1A986006958A3 /* AppDelegate.m */; };
+		B17B4DE014A1A986006958A3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B17B4DDE14A1A986006958A3 /* MainStoryboard.storyboard */; };
+		B17B4DE314A1A986006958A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B17B4DE214A1A986006958A3 /* ViewController.m */; };
+		B17B4DEB14A1A986006958A3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17B4DEA14A1A986006958A3 /* SenTestingKit.framework */; };
+		B17B4DEC14A1A986006958A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17B4DCC14A1A986006958A3 /* UIKit.framework */; };
+		B17B4DED14A1A986006958A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17B4DCE14A1A986006958A3 /* Foundation.framework */; };
+		B17B4DF514A1A986006958A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B17B4DF314A1A986006958A3 /* InfoPlist.strings */; };
+		B17B4DF814A1A986006958A3 /* DeadmanTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B17B4DF714A1A986006958A3 /* DeadmanTimerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B17B4DEE14A1A986006958A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B17B4DBF14A1A986006958A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17B4DC714A1A986006958A3;
+			remoteInfo = DeadmanTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B17B4DC814A1A986006958A3 /* DeadmanTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeadmanTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17B4DCC14A1A986006958A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B17B4DCE14A1A986006958A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B17B4DD014A1A986006958A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B17B4DD414A1A986006958A3 /* DeadmanTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeadmanTimer-Info.plist"; sourceTree = "<group>"; };
+		B17B4DD614A1A986006958A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B17B4DD814A1A986006958A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B17B4DDA14A1A986006958A3 /* DeadmanTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeadmanTimer-Prefix.pch"; sourceTree = "<group>"; };
+		B17B4DDB14A1A986006958A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B17B4DDC14A1A986006958A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B17B4DDF14A1A986006958A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B17B4DE114A1A986006958A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B17B4DE214A1A986006958A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B17B4DE914A1A986006958A3 /* DeadmanTimerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeadmanTimerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17B4DEA14A1A986006958A3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B17B4DF214A1A986006958A3 /* DeadmanTimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeadmanTimerTests-Info.plist"; sourceTree = "<group>"; };
+		B17B4DF414A1A986006958A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B17B4DF614A1A986006958A3 /* DeadmanTimerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeadmanTimerTests.h; sourceTree = "<group>"; };
+		B17B4DF714A1A986006958A3 /* DeadmanTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeadmanTimerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B17B4DC514A1A986006958A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17B4DCD14A1A986006958A3 /* UIKit.framework in Frameworks */,
+				B17B4DCF14A1A986006958A3 /* Foundation.framework in Frameworks */,
+				B17B4DD114A1A986006958A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17B4DE514A1A986006958A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17B4DEB14A1A986006958A3 /* SenTestingKit.framework in Frameworks */,
+				B17B4DEC14A1A986006958A3 /* UIKit.framework in Frameworks */,
+				B17B4DED14A1A986006958A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B17B4DBD14A1A986006958A3 = {
+			isa = PBXGroup;
+			children = (
+				B17B4DD214A1A986006958A3 /* DeadmanTimer */,
+				B17B4DF014A1A986006958A3 /* DeadmanTimerTests */,
+				B17B4DCB14A1A986006958A3 /* Frameworks */,
+				B17B4DC914A1A986006958A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B17B4DC914A1A986006958A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B17B4DC814A1A986006958A3 /* DeadmanTimer.app */,
+				B17B4DE914A1A986006958A3 /* DeadmanTimerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B17B4DCB14A1A986006958A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B17B4DCC14A1A986006958A3 /* UIKit.framework */,
+				B17B4DCE14A1A986006958A3 /* Foundation.framework */,
+				B17B4DD014A1A986006958A3 /* CoreGraphics.framework */,
+				B17B4DEA14A1A986006958A3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B17B4DD214A1A986006958A3 /* DeadmanTimer */ = {
+			isa = PBXGroup;
+			children = (
+				B17B4DDB14A1A986006958A3 /* AppDelegate.h */,
+				B17B4DDC14A1A986006958A3 /* AppDelegate.m */,
+				B17B4DDE14A1A986006958A3 /* MainStoryboard.storyboard */,
+				B17B4DE114A1A986006958A3 /* ViewController.h */,
+				B17B4DE214A1A986006958A3 /* ViewController.m */,
+				B17B4DD314A1A986006958A3 /* Supporting Files */,
+			);
+			path = DeadmanTimer;
+			sourceTree = "<group>";
+		};
+		B17B4DD314A1A986006958A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B17B4DD414A1A986006958A3 /* DeadmanTimer-Info.plist */,
+				B17B4DD514A1A986006958A3 /* InfoPlist.strings */,
+				B17B4DD814A1A986006958A3 /* main.m */,
+				B17B4DDA14A1A986006958A3 /* DeadmanTimer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B17B4DF014A1A986006958A3 /* DeadmanTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B17B4DF614A1A986006958A3 /* DeadmanTimerTests.h */,
+				B17B4DF714A1A986006958A3 /* DeadmanTimerTests.m */,
+				B17B4DF114A1A986006958A3 /* Supporting Files */,
+			);
+			path = DeadmanTimerTests;
+			sourceTree = "<group>";
+		};
+		B17B4DF114A1A986006958A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B17B4DF214A1A986006958A3 /* DeadmanTimerTests-Info.plist */,
+				B17B4DF314A1A986006958A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B17B4DC714A1A986006958A3 /* DeadmanTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17B4DFB14A1A986006958A3 /* Build configuration list for PBXNativeTarget "DeadmanTimer" */;
+			buildPhases = (
+				B17B4DC414A1A986006958A3 /* Sources */,
+				B17B4DC514A1A986006958A3 /* Frameworks */,
+				B17B4DC614A1A986006958A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeadmanTimer;
+			productName = DeadmanTimer;
+			productReference = B17B4DC814A1A986006958A3 /* DeadmanTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B17B4DE814A1A986006958A3 /* DeadmanTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17B4DFE14A1A986006958A3 /* Build configuration list for PBXNativeTarget "DeadmanTimerTests" */;
+			buildPhases = (
+				B17B4DE414A1A986006958A3 /* Sources */,
+				B17B4DE514A1A986006958A3 /* Frameworks */,
+				B17B4DE614A1A986006958A3 /* Resources */,
+				B17B4DE714A1A986006958A3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B17B4DEF14A1A986006958A3 /* PBXTargetDependency */,
+			);
+			name = DeadmanTimerTests;
+			productName = DeadmanTimerTests;
+			productReference = B17B4DE914A1A986006958A3 /* DeadmanTimerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B17B4DBF14A1A986006958A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = COPIOUS;
+			};
+			buildConfigurationList = B17B4DC214A1A986006958A3 /* Build configuration list for PBXProject "DeadmanTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B17B4DBD14A1A986006958A3;
+			productRefGroup = B17B4DC914A1A986006958A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B17B4DC714A1A986006958A3 /* DeadmanTimer */,
+				B17B4DE814A1A986006958A3 /* DeadmanTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B17B4DC614A1A986006958A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17B4DD714A1A986006958A3 /* InfoPlist.strings in Resources */,
+				B17B4DE014A1A986006958A3 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17B4DE614A1A986006958A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17B4DF514A1A986006958A3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B17B4DE714A1A986006958A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B17B4DC414A1A986006958A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17B4DD914A1A986006958A3 /* main.m in Sources */,
+				B17B4DDD14A1A986006958A3 /* AppDelegate.m in Sources */,
+				B17B4DE314A1A986006958A3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17B4DE414A1A986006958A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17B4DF814A1A986006958A3 /* DeadmanTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B17B4DEF14A1A986006958A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17B4DC714A1A986006958A3 /* DeadmanTimer */;
+			targetProxy = B17B4DEE14A1A986006958A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B17B4DD514A1A986006958A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B17B4DD614A1A986006958A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B17B4DDE14A1A986006958A3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B17B4DDF14A1A986006958A3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		B17B4DF314A1A986006958A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B17B4DF414A1A986006958A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B17B4DF914A1A986006958A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B17B4DFA14A1A986006958A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B17B4DFC14A1A986006958A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeadmanTimer/DeadmanTimer-Prefix.pch";
+				INFOPLIST_FILE = "DeadmanTimer/DeadmanTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B17B4DFD14A1A986006958A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeadmanTimer/DeadmanTimer-Prefix.pch";
+				INFOPLIST_FILE = "DeadmanTimer/DeadmanTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B17B4DFF14A1A986006958A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DeadmanTimer.app/DeadmanTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeadmanTimer/DeadmanTimer-Prefix.pch";
+				INFOPLIST_FILE = "DeadmanTimerTests/DeadmanTimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B17B4E0014A1A986006958A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DeadmanTimer.app/DeadmanTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeadmanTimer/DeadmanTimer-Prefix.pch";
+				INFOPLIST_FILE = "DeadmanTimerTests/DeadmanTimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B17B4DC214A1A986006958A3 /* Build configuration list for PBXProject "DeadmanTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17B4DF914A1A986006958A3 /* Debug */,
+				B17B4DFA14A1A986006958A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B17B4DFB14A1A986006958A3 /* Build configuration list for PBXNativeTarget "DeadmanTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17B4DFC14A1A986006958A3 /* Debug */,
+				B17B4DFD14A1A986006958A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B17B4DFE14A1A986006958A3 /* Build configuration list for PBXNativeTarget "DeadmanTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17B4DFF14A1A986006958A3 /* Debug */,
+				B17B4E0014A1A986006958A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B17B4DBF14A1A986006958A3 /* Project object */;
+}
