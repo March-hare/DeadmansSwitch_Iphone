@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TimerTests' target in the 'TimerTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
