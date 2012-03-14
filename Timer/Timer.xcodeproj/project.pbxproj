@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D51C468014E231BE0027B08D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D51C467F14E231BE0027B08D /* Settings.bundle */; };
 		D530F93214AAE46D005815C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D530F93114AAE46D005815C9 /* UIKit.framework */; };
 		D530F93414AAE46D005815C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D530F93314AAE46D005815C9 /* Foundation.framework */; };
 		D530F93614AAE46D005815C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D530F93514AAE46D005815C9 /* CoreGraphics.framework */; };
@@ -22,10 +23,19 @@
 		D530F95C14AAE46D005815C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D530F95A14AAE46D005815C9 /* InfoPlist.strings */; };
 		D530F95F14AAE46D005815C9 /* TimerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D530F95E14AAE46D005815C9 /* TimerTests.h */; };
 		D530F96114AAE46D005815C9 /* TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D530F96014AAE46D005815C9 /* TimerTests.m */; };
-		D530F97514AAEEA5005815C9 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D530F97314AAEEA5005815C9 /* SettingsViewController.m */; };
-		D530F97614AAEEA5005815C9 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D530F97414AAEEA5005815C9 /* SettingsViewController.xib */; };
 		D530F97D14AAF5BE005815C9 /* bright.png in Resources */ = {isa = PBXBuildFile; fileRef = D530F97B14AAF5BE005815C9 /* bright.png */; };
 		D530F97E14AAF5BE005815C9 /* dark.png in Resources */ = {isa = PBXBuildFile; fileRef = D530F97C14AAF5BE005815C9 /* dark.png */; };
+		D560F09D15002E3F00B29E0E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D560F09C15002E3F00B29E0E /* MessageUI.framework */; };
+		D59B53071500F74F004108B5 /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = D59B53061500F74F004108B5 /* wood.png */; };
+		D59B530A1500F762004108B5 /* wood2.png in Resources */ = {isa = PBXBuildFile; fileRef = D59B53091500F762004108B5 /* wood2.png */; };
+		D5D9EC8D151050FA0079A4C2 /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D9EC80151050FA0079A4C2 /* Base64Transcoder.m */; };
+		D5D9EC8E151050FA0079A4C2 /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D9EC82151050FA0079A4C2 /* HSK_CFUtilities.m */; };
+		D5D9EC8F151050FA0079A4C2 /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D9EC84151050FA0079A4C2 /* NSData+Base64Additions.m */; };
+		D5D9EC90151050FA0079A4C2 /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D9EC86151050FA0079A4C2 /* NSStream+SKPSMTPExtensions.m */; };
+		D5D9EC91151050FA0079A4C2 /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D9EC88151050FA0079A4C2 /* SKPSMTPMessage.m */; };
+		D5D9EC92151050FA0079A4C2 /* SMTPSenderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D9EC8A151050FA0079A4C2 /* SMTPSenderAppDelegate.m */; };
+		D5D9EC93151050FA0079A4C2 /* SMTPSenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D9EC8C151050FA0079A4C2 /* SMTPSenderViewController.m */; };
+		D5D9EC96151052100079A4C2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D9EC95151052100079A4C2 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D51C467F14E231BE0027B08D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		D530F92D14AAE46C005815C9 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D530F93114AAE46D005815C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D530F93314AAE46D005815C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,11 +70,27 @@
 		D530F95D14AAE46D005815C9 /* TimerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimerTests-Prefix.pch"; sourceTree = "<group>"; };
 		D530F95E14AAE46D005815C9 /* TimerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerTests.h; sourceTree = "<group>"; };
 		D530F96014AAE46D005815C9 /* TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerTests.m; sourceTree = "<group>"; };
-		D530F97214AAEEA5005815C9 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
-		D530F97314AAEEA5005815C9 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		D530F97414AAEEA5005815C9 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		D530F97B14AAF5BE005815C9 /* bright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bright.png; sourceTree = "<group>"; };
 		D530F97C14AAF5BE005815C9 /* dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dark.png; sourceTree = "<group>"; };
+		D560F097150020DA00B29E0E /* Root.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Root.plist; path = Settings.bundle/Root.plist; sourceTree = "<group>"; };
+		D560F09C15002E3F00B29E0E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D59B53061500F74F004108B5 /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		D59B53091500F762004108B5 /* wood2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood2.png; sourceTree = "<group>"; };
+		D5D9EC7F151050FA0079A4C2 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		D5D9EC80151050FA0079A4C2 /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
+		D5D9EC81151050FA0079A4C2 /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSK_CFUtilities.h; sourceTree = "<group>"; };
+		D5D9EC82151050FA0079A4C2 /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSK_CFUtilities.m; sourceTree = "<group>"; };
+		D5D9EC83151050FA0079A4C2 /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		D5D9EC84151050FA0079A4C2 /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
+		D5D9EC85151050FA0079A4C2 /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
+		D5D9EC86151050FA0079A4C2 /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
+		D5D9EC87151050FA0079A4C2 /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
+		D5D9EC88151050FA0079A4C2 /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
+		D5D9EC89151050FA0079A4C2 /* SMTPSenderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTPSenderAppDelegate.h; sourceTree = "<group>"; };
+		D5D9EC8A151050FA0079A4C2 /* SMTPSenderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTPSenderAppDelegate.m; sourceTree = "<group>"; };
+		D5D9EC8B151050FA0079A4C2 /* SMTPSenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTPSenderViewController.h; sourceTree = "<group>"; };
+		D5D9EC8C151050FA0079A4C2 /* SMTPSenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTPSenderViewController.m; sourceTree = "<group>"; };
+		D5D9EC95151052100079A4C2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5D9EC96151052100079A4C2 /* CFNetwork.framework in Frameworks */,
+				D560F09D15002E3F00B29E0E /* MessageUI.framework in Frameworks */,
 				D530F93214AAE46D005815C9 /* UIKit.framework in Frameworks */,
 				D530F93414AAE46D005815C9 /* Foundation.framework in Frameworks */,
 				D530F93614AAE46D005815C9 /* CoreGraphics.framework in Frameworks */,
@@ -93,6 +122,8 @@
 		D530F92214AAE46C005815C9 = {
 			isa = PBXGroup;
 			children = (
+				D59B53091500F762004108B5 /* wood2.png */,
+				D59B53061500F74F004108B5 /* wood.png */,
 				D530F93714AAE46D005815C9 /* Timer */,
 				D530F95714AAE46D005815C9 /* TimerTests */,
 				D530F93014AAE46D005815C9 /* Frameworks */,
@@ -112,6 +143,8 @@
 		D530F93014AAE46D005815C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D560F09C15002E3F00B29E0E /* MessageUI.framework */,
+				D5D9EC95151052100079A4C2 /* CFNetwork.framework */,
 				D530F93114AAE46D005815C9 /* UIKit.framework */,
 				D530F93314AAE46D005815C9 /* Foundation.framework */,
 				D530F93514AAE46D005815C9 /* CoreGraphics.framework */,
@@ -122,18 +155,12 @@
 		D530F93714AAE46D005815C9 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				D530F97B14AAF5BE005815C9 /* bright.png */,
-				D530F97C14AAF5BE005815C9 /* dark.png */,
-				D530F94014AAE46D005815C9 /* TimerAppDelegate.h */,
-				D530F94114AAE46D005815C9 /* TimerAppDelegate.m */,
-				D530F94314AAE46D005815C9 /* MainWindow.xib */,
 				D530F94614AAE46D005815C9 /* TimerViewController.h */,
 				D530F94714AAE46D005815C9 /* TimerViewController.m */,
 				D530F94914AAE46D005815C9 /* TimerViewController.xib */,
-				D530F97214AAEEA5005815C9 /* SettingsViewController.h */,
-				D530F97314AAEEA5005815C9 /* SettingsViewController.m */,
-				D530F97414AAEEA5005815C9 /* SettingsViewController.xib */,
 				D530F93814AAE46D005815C9 /* Supporting Files */,
+				D51C467F14E231BE0027B08D /* Settings.bundle */,
+				D560F097150020DA00B29E0E /* Root.plist */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -141,6 +168,25 @@
 		D530F93814AAE46D005815C9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D530F94014AAE46D005815C9 /* TimerAppDelegate.h */,
+				D530F94114AAE46D005815C9 /* TimerAppDelegate.m */,
+				D530F94314AAE46D005815C9 /* MainWindow.xib */,
+				D5D9EC87151050FA0079A4C2 /* SKPSMTPMessage.h */,
+				D5D9EC88151050FA0079A4C2 /* SKPSMTPMessage.m */,
+				D5D9EC89151050FA0079A4C2 /* SMTPSenderAppDelegate.h */,
+				D5D9EC8A151050FA0079A4C2 /* SMTPSenderAppDelegate.m */,
+				D5D9EC8B151050FA0079A4C2 /* SMTPSenderViewController.h */,
+				D5D9EC8C151050FA0079A4C2 /* SMTPSenderViewController.m */,
+				D5D9EC83151050FA0079A4C2 /* NSData+Base64Additions.h */,
+				D5D9EC84151050FA0079A4C2 /* NSData+Base64Additions.m */,
+				D5D9EC85151050FA0079A4C2 /* NSStream+SKPSMTPExtensions.h */,
+				D5D9EC86151050FA0079A4C2 /* NSStream+SKPSMTPExtensions.m */,
+				D5D9EC7F151050FA0079A4C2 /* Base64Transcoder.h */,
+				D5D9EC80151050FA0079A4C2 /* Base64Transcoder.m */,
+				D5D9EC81151050FA0079A4C2 /* HSK_CFUtilities.h */,
+				D5D9EC82151050FA0079A4C2 /* HSK_CFUtilities.m */,
+				D530F97B14AAF5BE005815C9 /* bright.png */,
+				D530F97C14AAF5BE005815C9 /* dark.png */,
 				D530F93914AAE46D005815C9 /* Timer-Info.plist */,
 				D530F93A14AAE46D005815C9 /* InfoPlist.strings */,
 				D530F93D14AAE46D005815C9 /* Timer-Prefix.pch */,
@@ -239,9 +285,11 @@
 				D530F93C14AAE46D005815C9 /* InfoPlist.strings in Resources */,
 				D530F94514AAE46D005815C9 /* MainWindow.xib in Resources */,
 				D530F94B14AAE46D005815C9 /* TimerViewController.xib in Resources */,
-				D530F97614AAEEA5005815C9 /* SettingsViewController.xib in Resources */,
 				D530F97D14AAF5BE005815C9 /* bright.png in Resources */,
 				D530F97E14AAF5BE005815C9 /* dark.png in Resources */,
+				D51C468014E231BE0027B08D /* Settings.bundle in Resources */,
+				D59B53071500F74F004108B5 /* wood.png in Resources */,
+				D59B530A1500F762004108B5 /* wood2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +328,13 @@
 				D530F93F14AAE46D005815C9 /* main.m in Sources */,
 				D530F94214AAE46D005815C9 /* TimerAppDelegate.m in Sources */,
 				D530F94814AAE46D005815C9 /* TimerViewController.m in Sources */,
-				D530F97514AAEEA5005815C9 /* SettingsViewController.m in Sources */,
+				D5D9EC8D151050FA0079A4C2 /* Base64Transcoder.m in Sources */,
+				D5D9EC8E151050FA0079A4C2 /* HSK_CFUtilities.m in Sources */,
+				D5D9EC8F151050FA0079A4C2 /* NSData+Base64Additions.m in Sources */,
+				D5D9EC90151050FA0079A4C2 /* NSStream+SKPSMTPExtensions.m in Sources */,
+				D5D9EC91151050FA0079A4C2 /* SKPSMTPMessage.m in Sources */,
+				D5D9EC92151050FA0079A4C2 /* SMTPSenderAppDelegate.m in Sources */,
+				D5D9EC93151050FA0079A4C2 /* SMTPSenderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +515,7 @@
 				D530F96614AAE46D005815C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D530F96714AAE46D005815C9 /* Build configuration list for PBXNativeTarget "TimerTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +524,7 @@
 				D530F96914AAE46D005815C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

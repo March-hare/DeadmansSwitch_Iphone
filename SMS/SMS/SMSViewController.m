@@ -7,24 +7,25 @@
 //
 
 #import "SMSViewController.h"
+#import <MessageUI/MessageUI.h>
+#import <AddressBook/AddressBook.h>
+#import <AddressBookUI/AddressBookUI.h>
 
 @implementation SMSViewController
 
-////////////////////
-// SendSMS
-
 @synthesize feedbackmessage;
 @synthesize messagetosend;
+@synthesize emailAddresses;
+@synthesize phoneNumbers;
 
-- (IBAction) sendSMS{
-    
+- (IBAction) sendSMS
+{    
     MFMessageComposeViewController *controller = [[[MFMessageComposeViewController alloc] init] autorelease];
     if([MFMessageComposeViewController canSendText]){
         controller.body = messagetosend.text;
-        //controller.body = @"Text Message Body";
-        controller.recipients = [NSArray arrayWithObject:nil];
+        controller.recipients = [NSArray arrayWithObjects:@"9407651810", nil];
         controller.messageComposeDelegate = self;
-        [self presentModalViewController:self animated:YES];
+        [self presentModalViewController:controller animated:YES];
     }
     
 }
@@ -32,8 +33,11 @@
 #pragma mark -
 #pragma mark Dismiss Mail/SMS view controller
 
--(void) messageComposeViewController:(MFMessageComposeViewController *)controller
-                 didFinishWithResult:(MessageComposeResult)result {
+- (void)messageComposeViewController:(MFMessageComposeViewController *)controller
+                 didFinishWithResult:(MessageComposeResult)result
+{
+    [self dismissModalViewControllerAnimated:YES];
+    
     switch (result) {
         case MessageComposeResultCancelled:
             feedbackmessage.text = @"SMS sending cancelled";
@@ -48,11 +52,20 @@
             feedbackmessage.text = @"SMS not sent";
             break;
     }
-    [self dismissModalViewControllerAnimated:YES];
 }
 
-// SendSMS
-////////////////////////
+- (IBAction) sendEmail{
+    
+/*    MFMailComposeViewController *mailComposer; 
+    mailComposer  = [[MFMailComposeViewController alloc] init];
+    mailComposer.mailComposeDelegate = self;
+    [mailComposer setModalPresentationStyle:UIModalPresentationFormSheet];
+    [mailComposer setSubject:@"your custom subject"];
+    [mailComposer setMessageBody:@"your custom body content" isHTML:NO];
+    [self presentModalViewController:mailComposer animated:YES];
+    [mailComposer release];    
+*/
+}
 
 - (void)dealloc
 {

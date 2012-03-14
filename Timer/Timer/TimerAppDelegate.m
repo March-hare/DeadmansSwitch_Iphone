@@ -20,6 +20,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    //NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    //NSDictionary *appDefaults = [NSDictionary dictionaryWithObject:@"Yes" forKey:@"safelydisarm"];
+    //[defaults registerDefaults:appDefaults];
+    //[defaults synchronize];
+    
     UINavigationController *navCon = [[UINavigationController alloc] init];
     [navCon setNavigationBarHidden:YES animated:NO];
     self.viewController = [[TimerViewController alloc] init];

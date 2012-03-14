@@ -17,12 +17,17 @@
 @interface SMSViewController : UIViewController <MFMessageComposeViewControllerDelegate> {
 
     IBOutlet UILabel *feedbackmessage;  //SendSMS
-    IBOutlet UITextField *messagetosend; //SendSMS
+    IBOutlet UITextView *messagetosend; //SendSMS
+    IBOutlet UITextView *phoneNumbers;  //SendSMS
+    IBOutlet UITextView *emailAddresses;//SendEMAIL
 }
 
-@property (nonatomic, retain) IBOutlet UILabel *feedbackmessage;  //SendSMS
-@property (nonatomic, retain) IBOutlet UITextField *messagetosend;
+@property (nonatomic, retain) IBOutlet UILabel *feedbackmessage;   //SendSMS
+@property (nonatomic, retain) IBOutlet UITextView *messagetosend;  //SendSMS/EMAIL
+@property (nonatomic, retain) IBOutlet UITextView *phoneNumbers;   //SENDSMS
+@property (nonatomic, retain) IBOutlet UITextView *emailAddresses; //SendEMAIL
 
 - (IBAction) sendSMS;  //SendSMS
+- (IBAction) sendEmail; //SendEmail
 
 @end
