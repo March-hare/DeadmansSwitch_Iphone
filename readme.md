@@ -1,13 +1,7 @@
-#Deadman Switch
+##Deadman Switch
 
-##Development objectives:
-  
-###Functions:
-- SMS sending (DONE)
-- Email sending
-- Get Request to a URL
-- Delete contact list (if Apple is cool enough to let me)
+Automated message delivery system.  Screen appears black for disguised use.
 
-###Frameworks:
-- ABAddressBook
-- NSTimer
+###V1 Release Functions:
+- SMS (library needed) and Email (skpsmtpmessage) sending after an over-due check-in
+- Settings contained in settings bundle to simplify UI
