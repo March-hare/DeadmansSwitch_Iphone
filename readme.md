@@ -1,7 +1,8 @@
 ##Deadman Switch
 
-Automated message delivery system.  Screen appears black for disguised use.
+Automated message delivery system.  Screen appears black for disguise.
 
-###V1 Release Functions:
-- SMS (library needed) and Email (skpsmtpmessage) sending after an over-due check-in
-- Settings contained in settings bundle to simplify UI
+###V1 Release Features:
+- Email (skpsmtpmessage) sending after an over-due check-in
+- Customizable timer settings located in the iOS settings bundle
+- SMS library still needed
